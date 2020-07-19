@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family:open-sans;
+}
+ ul li a{
+     color:black;
+ }
+ ul li a:hover{
+     color:#f1c9bf;
+ }
+ .bgimg1{
+     background-image: url(images/headerbg1.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
+ .hvr{
+     cursor: pointer;
+ }
+ .hvr:hover{
+     color:#f1c9bf ;
+ }
+ .size{
+     font-size: 80px;
+ }
+ .size1{
+    font-size: 60px;
+}
+
+ .headbg{
+     background-color: #f1c9bf ;
+     width: 150px;
+     padding: 10px;
+     margin: 0 auto;  
+ }
+ .headbg:hover , .bgclr9:hover{
+background-color: #c9ccd0;
+color:#46484d;
+ }
+.bgimg2{
+    background-image: url(images/body1bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.width{
+    width: 90%;
+}
+.bgimg4{
+    background-image: url(images/body3bg.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+ 
+.bgimg6{
+    background-image: url(images/body5bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bgimg8{
+    background-color: #f0ece9;
+}
+.padd1{
+    padding-top: 100px ;
+}
+.bgclr33{
+    background-color: aliceblue;
+    width: max-content;
+}
+.bgclr8{
+    background-color: #e5ccc6; 
+}
+.arrnge{
+    width: 100%;
+    height:100px;
+}
+.bgclr9{
+    background-color: #e5ccc6; 
+    width: max-content;
+    margin: auto;
+    padding: 10px;
+}
+.bgimg7{
+    background-image: url(images/body7bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.jstyarnd{
+    justify-content: space-around;
+}
+.jstycntr1{
+    justify-content: center;
+}
+
+.bgclrr1{
+    background-color: #484f5b;
+}
+.footwhite li a{
+    color:white;
+}
+.trans:hover{
+    transform: scale(1.10);
+}
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+@media only screen and (max-width: 576px) {
+    .size{
+        font-size: 20px;
+    }
+   
+
+}
+ 
+@media only screen and (min-width: 768px) 
+{  
+    .size{
+    font-size: 40px;
+}
+
+}
+ 
+@media only screen and (min-width: 992px)
+ {
+     .size{
+    font-size: 60px;
+}
+}
+ 
+@media only screen and (min-width: 1200px)
+ {
+     .size{
+    font-size: 80px;
+}
+}
